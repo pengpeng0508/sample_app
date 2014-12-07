@@ -11,7 +11,8 @@ group:development,:test do
 end
 
 group:test do
-	gem 'selenium-webdriver','2.0.0'
+	#gem 'selenium-webdriver','~> 2.0.0'
+	gem 'selenium-webdriver'
 	gem 'capybara','2.1.0'
 end
 	
@@ -60,4 +61,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+################################################################
+#gem 'rubyzip','>= 1.0.0'
+#
+################################################################
